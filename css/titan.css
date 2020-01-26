@@ -1,0 +1,20 @@
+.titan-nav{
+    background-color: #337ab7;
+}
+.titan-nav-font{
+    color: white !important;
+}
+.titan-nav-button{
+    background-color: white !important;
+}
+.titan-nav-active{
+    background-color: aliceblue !important;
+    margin: 1px !important;
+}
+.navbar-toggle:hover{
+    background-color: #337ab7 !important;
+}
+.titan-nav-a{
+    font-size: 15px;
+    color: black !important;
+}
