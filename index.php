@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Titan留言板 - Powered by Titan!</title>
-    <link href="./css/titan.css" rel="stylesheet">
+    <link href="./css/titan.css?v=1.0.1" rel="stylesheet">
     <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -74,7 +74,7 @@
                                 <span class="input-group-addon" id="sizing-addon2">您的邮箱</span>
                                 <input type="text" id="mail" class="form-control" placeholder="请输入您的邮箱">
                             </div><br>
-                            <div class="input-group" style="width: 30%;">
+                            <div class="input-group captcha-div">
                                 <span class="input-group-addon" id="sizing-addon2">验证码</span>
                                 <input type="text" id="vcode" class="form-control"  style="height: 50px;" placeholder="请输入验证码">
                                 <span class="input-group-addon" id="sizing-addon2" style="padding: 0;"><img id="captcha" onclick="javascript:this.src='./vcode.php?t='+Math.random();" src="vcode.php"></span>

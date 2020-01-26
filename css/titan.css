@@ -18,3 +18,9 @@
     font-size: 15px;
     color: black !important;
 }
+@media (min-width: 768px) {
+    .captcha-div{
+        width: 40%;
+    }
+    
+ }
